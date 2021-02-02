@@ -1,0 +1,592 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+  margin: 0;
+  width: 100%;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+
+
+
+
+.container {
+
+  margin: 0 auto;
+}
+
+.top-bar {
+  border-top: rgb(73, 180, 184) 3px solid;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+}
+
+.header-logo {
+  margin-top: 20px;
+}
+
+.tell-wrap {
+  color: rgb(94, 94, 94);
+}
+
+.tell-title {
+  font-size: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.phone-num {
+  margin-left: 5px;
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.time {
+  border: rgb(187, 185, 185) 1px solid;
+  padding: 8px 0px;
+  display: block;
+  font-size: 10px;
+  width: 220px;
+  text-align: center;
+}
+
+.time span {
+  color: crimson;
+}
+
+.top-nav {
+  display: flex;
+  text-align: center;
+  background-color: rgb(73, 180, 184);
+  margin: 0 auto;
+  width: 60%;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-wrap {
+  border: rgb(73, 180, 184) 1px solid;
+  width: 185px;
+  border-radius: 6px 0 0 6px;
+  padding: 17px 0;
+  border-left: #99E1DF solid 1px;
+  text-shadow: 1px 1px 2px #6CC6C4;
+      background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.home-wrap:hover {
+  background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+
+.home-title,
+.home-text {
+  display: block;
+}
+
+.home-text {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.clinic-wrap {
+    border: rgb(73, 180, 184) 1px solid;
+    width: 185px;
+    display: block;
+    padding: 17px 0;
+    border-left: #99E1DF solid 1px;
+        background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.clinic-wrap:hover {
+background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+
+.clinic-title,
+.clinic-text {
+display: block;
+}
+
+.clinic-text {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.service-wrap {
+    border: rgb(73, 180, 184) 1px solid;
+    width: 185px;
+    display: block;
+    padding: 17px 0;
+    border-left: #99E1DF solid 1px;
+        background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.service-wrap:hover{
+  background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+
+.service-title,
+.service-text {
+  display: block;
+}
+
+.service-text {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.staff-wrap {
+    border: rgb(73, 180, 184) 1px solid;
+    width: 185px;
+    display: block;
+    padding: 17px 0;
+    border-left: #99E1DF solid 1px;
+        background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.staff-wrap:hover{
+  background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+
+.staff-title,
+.staff-text {
+ display: block;
+}
+
+.staff-text {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+
+.access-wrap {
+    border: rgb(73, 180, 184) 1px solid;
+    width: 185px;
+    border-radius: 0 6px 6px 0;
+    display: block;
+    padding: 17px 0;
+    border-left: #99E1DF solid 1px;
+        background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.access-wrap:hover{
+  background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+
+.access-title,
+.access-text {
+   display: block;
+}
+
+.access-text {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.nav {
+  display: flex;
+  margin-left: 20%;
+  padding: 15px 0 15px;
+}
+
+.nav a {
+   font-size: 10px;
+   margin-left: -30px;
+}
+
+.nav-text {
+  margin-left: -30px;
+  font-size: 10px;
+}
+
+.main-menu {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu1 {
+  width: 260px;
+  height: 230px;
+  border: rgb(73, 180, 184) 1px solid;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.menu-title1 {
+   background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+   height: 40px;
+   padding: 0 15px;
+   line-height: 40px;
+   color: white;
+   border-radius: 6px 6px 0 0;
+}
+
+.menu-list1 a {
+   text-decoration: none;
+    color: rgb(94, 94, 94);
+    display: block;
+}
+
+.menu-list1 li {
+  height: 40px;
+  border-bottom: rgb(73, 180, 184) 1px solid;
+  margin: 0 12px;
+  line-height: 40px;
+  list-style: none;
+}
+
+.menu-list1 li a:hover{
+  color: rgb(73, 180, 184);
+}
+
+.menu-list1 span {
+  color: rgb(73, 180, 184);
+}
+
+.menu2 {
+  width: 260px;
+  height: 230px;
+  border: rgb(73, 180, 184) 1px solid;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.menu-title2 {
+   background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+   height: 40px;
+   padding: 0 15px;
+   line-height: 40px;
+   color: white;
+   border-radius: 6px 6px 0 0;
+}
+
+.menu-list2 a {
+   text-decoration: none;
+    color: rgb(94, 94, 94);
+    display: block;
+}
+
+.menu-list2 li {
+  height: 40px;
+  border-bottom: rgb(73, 180, 184) 1px solid;
+  margin: 0 12px;
+  line-height: 40px;
+  list-style: none;
+}
+
+.menu-list2 li a:hover{
+  color: rgb(73, 180, 184);
+}
+
+.menu-list2 span {
+  color: rgb(73, 180, 184);
+}
+
+.midashi-menu {
+  width: 580px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.midashi-title {
+  height: 100px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  line-height: 100px;
+  color: white;
+  padding: 0 20px;
+  font-size: 19px;
+  border-radius: 6px 6px 0 0;
+  border: rgb(73, 180, 184) 1px solid;
+}
+
+.midashi-text {
+  padding: 40px 0 20px 20px;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+}
+
+.midashi-content{
+  margin: 0 auto;
+  border-top: rgb(73, 180, 184) 3px solid;
+  margin: 0 20px;
+  display: flex;
+}
+
+.inncyou {
+  display: flex;
+}
+
+.inncyou-img{
+  padding: 20px 0;
+}
+
+.inncyou-name {
+  background-color: rgb(73, 180, 184);
+  color: white;
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.his-nav {
+  padding-top: 30px;
+}
+
+.his-nav li {
+  list-style: none;
+  color: rgb(94, 94, 94);
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.his-list {
+  padding: 50px 0 0 20px;
+}
+
+.hello {
+  padding: 50px 20px 0 20px;
+}
+
+.hello-title {
+  color: rgb(73, 180, 184);
+  padding-bottom: 30px;
+}
+
+.hello-text1 {
+  padding-bottom: 20px;
+  color: rgb(94, 94, 94);
+  font-size: 13px;
+}
+
+.hello-text2 {
+  padding-bottom: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  color: rgb(94, 94, 94);
+}
+
+.hello-text3 {
+    line-height: 20px;
+  font-size: 13px;
+  color: rgb(94, 94, 94);
+}
+
+.int {
+  padding: 0 20px;
+  padding-bottom: 30px;
+}
+
+.int-title {
+  padding: 30px 0 20px 0;
+   color: rgb(94, 94, 94);
+}
+
+.int-img {
+  border-top: rgb(73, 180, 184) 3px solid;
+ padding: 20px 0 20px 0;
+ width: 540px;
+}
+
+.int-list li {
+  list-style: none;
+  font-size: 13px;
+  color: rgb(94, 94, 94);
+}
+
+.int-list {
+  line-height: 20px;
+}
+
+.bottom {
+  width: 70%;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.bottom-list {
+ background-color: rgb(73, 180, 184);
+ border-radius: 6px;
+}
+
+.bottom-nav {
+  display: flex;
+}
+
+.bottom-nav li {
+  list-style: none;
+  color: white;
+  padding-left: 20px;
+}
+.bottom-nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-text {
+  padding: 15px 0 15px 0;
+  font-size: 13px;
+  color: rgb(94, 94, 94);
+  text-align: right;
+}
+
+.footer-wrap {
+  font-size: 13px;
+  color: rgb(94, 94, 94);
+   border-top: rgb(73, 180, 184) 3px solid;
+}
+
+.footer-text {
+  text-align: center;
+  padding: 20px 0 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+ .header {
+  display: block;
+  background-color: khaki;
+  margin: 0;
+  padding: 0;
+}
+ .top-nav {
+   width: 100%;
+ }
+ .header-logo {
+   position: static;
+   text-align: center;
+ }
+ .tell-title {
+    position: static;
+   text-align: center;
+ }
+ .phone-num {
+   position: static;
+   text-align: center;
+ }
+ .time {
+   position: static;
+   text-align: center;
+   display: block;
+ }
+}
