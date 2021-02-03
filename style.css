@@ -316,9 +316,6 @@ display: block;
 .main-menu {
   width: 60%;
   margin: 0 auto;
-  justify-content: space-between;
-   display: flex;
-   display: block;
 }
 
 menu {
@@ -410,6 +407,16 @@ menu {
   background-color: white;
   float: right;
   margin-right: 20%;
+}
+
+.memenu {
+  width: 60%;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .midashi-title {
@@ -643,9 +650,5 @@ menu {
    margin: 0 auto;
  }
 
- .menu {
-   width: 100%;
-   margin: 0;
-   box-sizing: border-box;
- }
+ 
 }
