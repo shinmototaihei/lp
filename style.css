@@ -316,8 +316,8 @@ display: block;
 .main-menu {
   width: 60%;
   margin: 0 auto;
-  display: flex;
   justify-content: space-between;
+   display: flex;
 }
 
 .menu1 {
@@ -403,6 +403,8 @@ display: block;
   width: 580px;
   border-radius: 6px;
   background-color: white;
+  float: right;
+  margin-right: 20%;
 }
 
 .midashi-title {
@@ -519,7 +521,7 @@ display: block;
 .bottom {
   width: 70%;
   margin: 0 auto;
-  height: 30px;
+  height: 130px;
   line-height: 30px;
   border-radius: 6px;
   margin-top: 20px;
@@ -565,9 +567,11 @@ display: block;
 @media screen and (max-width: 768px) {
  .header {
   display: block;
-  background-color: khaki;
   margin: 0;
   padding: 0;
+  width: 100%;
+  position: relative;
+  text-align: center;
 }
  .top-nav {
    width: 100%;
