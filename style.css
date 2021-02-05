@@ -320,6 +320,7 @@ display: block;
 
 menu {
   width: 260px;
+  display: flex;
 }
 
 .menu1 {
@@ -329,6 +330,7 @@ menu {
   border-radius: 6px;
   margin-bottom: 30px;
   background-color: white;
+  clear: both;
 }
 
 .menu-title1 {
@@ -405,14 +407,11 @@ menu {
   width: 580px;
   border-radius: 6px;
   background-color: white;
-  float: right;
   margin-right: 20%;
+  float: right;
 }
 
-.memenu {
-  width: 60%;
-  margin: 0 auto;
-}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -536,6 +535,7 @@ menu {
   border-radius: 6px;
   margin-top: 20px;
   bottom: 0;
+  clear: both;
 }
 
 .bottom-list {
@@ -649,6 +649,8 @@ menu {
    width: 80%;
    margin: 0 auto;
  }
+
+ 
 
  
 }
